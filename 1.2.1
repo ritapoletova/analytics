@@ -1,0 +1,6 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+train = pd.read_csv ('analytics/train.csv')
+plt.scatter(train['Popularity'],train['energy']);
+plt.xlabel('Популярность')
+plt.ylabel('Энергичность')
